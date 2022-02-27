@@ -28,39 +28,36 @@
 # x == y  -> resolves to True iff both x and y are equivalent       -> e.g. 1 == 3 is False
 # x != y  -> resolves to True iff both x and y are not equivalent   -> e.g. 1 != 3 is True
 #
+#
 # With the use of these operators, we gain the ability to introduce new control structures
 # that we can use to write more complex tasks
-
-
-# This function exemplifies how to use if/else statements
+#
+# This function exemplifies how to use if/else statements. They allow us to decide to take
+# one course of action over another in a program based on some information
 def isTrue(b: bool):
     if b:
         print("This is true")
     else:
         print("This is false")
-
-# This function exemplifies how to use a while statement
+#
+# This function exemplifies how to use a while statement. They allow us to repeat a task
+# until certain conditions we define are met
 def countDown(x: int):
     while x >= 0:
         print(x)
         x -= 1
 
 # Let's try some practice problems using if and while statements
-#
-# if statements
 
-# print out whether the number x is positive, negative, or zero
+
+# print out if x is positive, negative, or zero
 def sign(x: int):
 
-# print out if x is greater than, less than, or equal to zero
+# print out if x is greater than, less than, or equal to y
 def relation(x: int, y: int):
 
-# return x to the power of y
+# print out x until it reaches zero
+def countdown(x: int):
+
+# return x to the power of y. Do not use the '**' operator
 def exponentiate(x: int, y: int) -> int:
-
-# return True if the number is odd, even otherwise
-def isOdd(x: int) -> bool:
-
-# write out the digits of x
-def writeDigits(x: int):
-    
